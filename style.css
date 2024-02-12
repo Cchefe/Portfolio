@@ -460,15 +460,24 @@ footer img {
     /*----------PORTFOLIO---------------*/
 
     section#portfolio {
-        padding: 80px 8%;
+        padding: 80px 10%;
         align-items: center;
     }
 
-    .img-port {
+    .img-port1 {
         width: 100%;
         max-width: 360px;
-        margin: 0 auto;
-        
+        margin: 0 auto; 
+    }
+    .img-port2 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto; 
+    }
+    .img-port3 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto; 
     }
 
     section#portfolio .flex {
@@ -487,7 +496,5 @@ footer img {
         flex-direction: column;
     }
 
-    footer .line-footer {
-        text-align: center;
-    }
+ 
 }
