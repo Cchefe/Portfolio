@@ -388,16 +388,25 @@ footer img {
 
 
 /*------------------------------------*/
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1000px) {
 
     /*-------------CLASSES GERAL---------*/
+
+    *{
+        overflow-x: hidden;
+    }
     .flex {
         flex-direction: column;
     }
 
+    /*----------HEADER-----------*/
+    header {
+        display: none;
+    }
     /*--------SITE TOP-----------*/
     section#site-top {
         padding: 20px 8%;
+        margin-bottom: 15px;
     }
 
 
@@ -420,12 +429,16 @@ footer img {
 
     section#skills {
         padding: 40px 8%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     /*---------------SOBRE----------------*/
 
     section#sobre {
         padding: 80px 8%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #sobre .txt-sobre h2 {
@@ -439,7 +452,8 @@ footer img {
     }
 
     .img-sobre img {
-        width: 100%;
+        width: 350px;
+        display: flex;
     }
 
     /*----------PORTFOLIO---------------*/
@@ -452,17 +466,20 @@ footer img {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
+        
     }
 
     section#portfolio .flex {
         gap: 60px;
     }
 
+
     /*-------FOOTER-------------*/
     .menu-desktop,
     .btn-contato {
         display: none;
     }
+
 
     footer.flex {
         flex-direction: column;
