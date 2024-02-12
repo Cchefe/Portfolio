@@ -2,8 +2,8 @@
 
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -138,13 +138,13 @@ section#site-top.flex {
 
 }
 
-#site-top .txt-topo-site h1 {
+#site-top  h1 {
     color: aqua;
     font-size: 50px;
     line-height: 40px;
 }
 
-#site-top .txt-topo-site h1 span {
+#site-top  h1 span {
     color: aqua;
 
 }
@@ -343,7 +343,7 @@ section#portfolio .flex {
     transition: .5s;
 }
 
-#title-port{
+#title-port {
     margin-top: 200px;
 }
 
@@ -392,18 +392,20 @@ footer img {
 
     /*-------------CLASSES GERAL---------*/
 
-    *{
+    * {
         overflow-x: hidden;
     }
+
     .flex {
         flex-direction: column;
     }
 
     /*----------HEADER-----------*/
-    header  {
+    header {
         display: none;
         visibility: hidden;
     }
+
     /*--------SITE TOP-----------*/
     section#site-top {
         padding: 20px 8%;
@@ -417,8 +419,7 @@ footer img {
     }
 
     #site-top h1 {
-        font-size: 30px;
-
+        font-size: 35px;
     }
 
     #site-top .img-topo-site img {
@@ -467,17 +468,19 @@ footer img {
     .img-port1 {
         width: 100%;
         max-width: 360px;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
+
     .img-port2 {
         width: 100%;
         max-width: 360px;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
+
     .img-port3 {
         width: 100%;
         max-width: 360px;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     section#portfolio .flex {
@@ -496,5 +499,5 @@ footer img {
         flex-direction: column;
     }
 
- 
+
 }
