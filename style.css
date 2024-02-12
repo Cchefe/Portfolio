@@ -408,7 +408,7 @@ footer img {
 
     /*--------SITE TOP-----------*/
     section#site-top {
-        padding: 20px 8%;
+        padding: 20px 4%;
         margin-bottom: 15px;
     }
 
@@ -419,7 +419,7 @@ footer img {
     }
 
     #site-top h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #site-top .img-topo-site img {
