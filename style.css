@@ -298,7 +298,7 @@ section#portfolio .flex {
     height: 500px;
     background-color: rgb(69, 109, 109);
     background-size: cover;
-    background-position: 01% 100%;
+    background-position: 05% 100%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
@@ -322,7 +322,7 @@ section#portfolio .flex {
     height: 500px;
     background-color: rgb(69, 109, 109);
     background-size: cover;
-    background-position: 100% 50%;
+    background-position: 50% 50%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
